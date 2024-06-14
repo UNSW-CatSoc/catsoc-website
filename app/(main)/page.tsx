@@ -1,16 +1,15 @@
 import Image from "next/image";
-import { Hero } from "./_components/hero";
-import { Footer } from "./_components/footer";
-import { ShortDescription } from "./_components/description";
-import { CatOfTheWeek } from "./_components/catoftheweek";
+import { Hero } from "./(components)/hero";
+import { Footer } from "./(components)/footer";
+import { ShortDescription } from "./(components)/description";
+import { CatOfTheWeek } from "./(components)/catoftheweek";
 
 export default function Home() {
   return (
     <div>
-        <Hero />
+        <Hero src="/images/placeholder.jpg" text="Welcome to the UNSW Cat Appreciation Society!" />
         <ShortDescription />
         <CatOfTheWeek />
-        <Footer />
     </div>
   );
 }
