@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const Footer = () => {
     return (
-        <footer className="bg-gray-800 text-white py-8">
+        <footer className="bg-[#FFBA00] text-white py-8">
             <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center px-4">
                 <div className="mb-4 md:mb-0 w-full md:w-auto md:flex-1">
                     <h4 className="text-lg font-bold mb-2">Quick Links</h4>
@@ -38,7 +38,7 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm">
+            <div className="t-8 pt-4 text-center text-sm">
                 &copy; {new Date().getFullYear()} UNSW Cat Appreciation Society. All rights reserved.
             </div>
             <div className="mt-4 text-center text-sm px-4">
