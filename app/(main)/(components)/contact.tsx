@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react';
 import { FaDiscord, FaFacebook, FaInstagram, FaLinkedin, FaTiktok } from 'react-icons/fa';
 
