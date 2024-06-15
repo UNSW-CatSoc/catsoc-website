@@ -12,7 +12,7 @@ export const Footer = () => {
                     <nav className="flex flex-col space-y-2">
                         <Link href="/about" className="hover:underline">About</Link>
                         <Link href="/events" className="hover:underline">Events</Link>
-                        <Link href="/resources" className="hover:underline">Resources</Link>
+                        <Link href="/coming-soon" className="hover:underline">Resources</Link>
                         <Link href="/contact" className="hover:underline">Contact Us</Link>
                     </nav>
                 </div>

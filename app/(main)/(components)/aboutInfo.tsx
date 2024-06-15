@@ -4,7 +4,6 @@ const CatSocInfoCard = () => {
   return (
     <div className="overflow-hidden p-6 xl:px-96">
       <div className="space-y-6">
-        <h2 className="text-3xl font-bold text-center">About UNSW Cat Appreciation Society (CatSoc)</h2>
         <p className="text-gray-700">
           The UNSW Cat Appreciation Society (CatSoc) is a vibrant community dedicated to bringing together cat enthusiasts from all walks of life at the University of New South Wales (UNSW). Our society aims to provide a fun, diverse, accepting, and caring forum for cat lovers to collaborate, form friendships, and engage in meaningful activities.
         </p>

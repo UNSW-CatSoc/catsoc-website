@@ -58,9 +58,7 @@ export const Navbar = () => {
                         </button>
                         {isResourcesDropdownOpen && (
                             <div className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-lg">
-                                <Link className="block px-4 py-2 text-gray-800 hover:bg-gray-200 rounded-t-lg" href={"/guide-for-adoption"}>Guide for Adoption</Link>
-                                <Link className="block px-4 py-2 text-gray-800 hover:bg-gray-200" href={"/guide-for-care"}>Guide for Care</Link>
-                                <Link className="block px-4 py-2 text-gray-800 hover:bg-gray-200 rounded-b-lg" href={"/animal-shelters"}>Animal Shelters</Link>
+                                <Link className="block px-4 py-2 text-gray-800 hover:bg-gray-200 rounded-lg" href={"/coming-soon"}>Coming Soon!</Link>
                             </div>
                         )}
                     </div>
@@ -89,9 +87,7 @@ export const Navbar = () => {
                     </button>
                     {isResourcesDropdownOpen && (
                         <div className="pl-4">
-                            <Link className="block px-2 py-2 text-gray-800 hover:bg-gray-200 rounded-t-lg" href={"/guide-for-adoption"} onClick={toggleSidebar}>Guide for Adoption</Link>
-                            <Link className="block px-2 py-2 text-gray-800 hover:bg-gray-200" href={"/guide-for-care"} onClick={toggleSidebar}>Guide for Care</Link>
-                            <Link className="block px-2 py-2 text-gray-800 hover:bg-gray-200 rounded-b-lg" href={"/animal-shelters"} onClick={toggleSidebar}>Animal Shelters</Link>
+                            <Link className="block px-2 py-2 text-gray-800 hover:bg-gray-200 rounded-lg" href={"/coming-soon"} onClick={toggleSidebar}>Coming Soon!</Link>
                         </div>
                     )}
                     <Link className="px-2" href={"/contact"} onClick={toggleSidebar}>Contact Us</Link>

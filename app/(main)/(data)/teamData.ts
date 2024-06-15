@@ -46,23 +46,23 @@ export interface execPerson {
         { name: "Evelyn Ly", role: "Secretary" },
       ],
       directorList: [
-        { role: "Events", directors: ["Jerrica Kuan", "Kristine Lim"] },
-        { role: "External Relations", directors: ["Jerrica Kuan", "Kristine Lim"] },
-        { role: "Human Resources", directors: ["Jerrica Kuan", "Kristine Lim"] },
+        { role: "Events", directors: ["Placeholder"] },
+        { role: "External Relations", directors: ["Placeholder"] },
+        { role: "Human Resources", directors: ["Placeholder"] },
         { role: "Marketing", directors: ["Jerrica Kuan", "Kristine Lim"] },
       ],
       subcommittee: [
         {
           role: "Events",
-          members: ["Melissa Soe", "Nhi Nguyen", "Silvia Zhou", "Eric Do"]
+          members: ["Placeholder"]
         },
         {
           role: "External Relations",
-          members: ["Melissa Soe", "Nhi Nguyen", "Silvia Zhou", "Eric Do"]
+          members: ["Placeholder"]
         },
         {
           role: "Human Resources",
-          members: ["Melissa Soe", "Nhi Nguyen", "Silvia Zhou", "Eric Do"]
+          members: ["Placeholder"]
         },
         {
           role: "Marketing",
