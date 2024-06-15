@@ -1,9 +1,14 @@
-// @ts-nocheck
-
 import Image from "next/image";
 import React from "react";
 
-export const Hero = ({ src, text, buttonText, buttonLink }) => {
+interface HeroProps {
+    src: string;
+    text: string;
+    buttonText?: string;
+    buttonLink?: string;
+  }
+
+export const Hero: React.FC<HeroProps> = ({ src, text, buttonText, buttonLink }) => {
     return (
         <div className="relative w-full h-[70vh]">
             <Image
